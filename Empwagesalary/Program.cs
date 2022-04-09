@@ -1,3 +1,3 @@
-﻿using EmployeeWageComputation;
+﻿using Empwage;
 EmployeeWage computation = new EmployeeWage();
-computation.monthlyEmpWage();s
+computation.monthlyEmpWage();

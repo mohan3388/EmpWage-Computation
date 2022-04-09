@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeeWageComputation
+namespace Empwage
 {
     public class EmployeeWage
     {
@@ -15,16 +15,18 @@ namespace EmployeeWageComputation
         const int EMP_FULL_DAY_WRKING_HR = 8;
         const int EMP_PART_TIME_WRKING_HR = 4;
         const int EMP_WORKING_PR_MONTH = 20;
+        const int MAX_WORKING_HR = 100;
 
 
         //variable values
         int empHrs = 0;
         int totalEmpSalary = 0;
-
+        int totalEmpHrs = 0;
+        int day = 0;
 
         public void monthlyEmpWage()
         {
-            for (int day = 0; day <= EMP_WORKING_PR_MONTH; day++)
+            while (day <= EMP_WORKING_PR_MONTH && empHrs <= MAX_WORKING_HR)
             {
                 Random random = new Random();
                 int empCheck = random.Next(0, 3);
@@ -43,10 +45,12 @@ namespace EmployeeWageComputation
                         empHrs = 0;
                         break;
                 }
+                day++;
 
             }
+
             totalEmpSalary = empHrs * EMP_WAGE_PR_HR;
-            Console.WriteLine("One Month Employee salary is :" + totalEmpSalary);
+            Console.WriteLine("One month Employee Salary is :" + totalEmpSalary);
         }
 
 
