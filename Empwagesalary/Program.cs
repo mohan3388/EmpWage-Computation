@@ -1,3 +1,3 @@
-﻿using Empwage;
+﻿using EmployeeWageComputation;
 EmployeeWage computation = new EmployeeWage();
 computation.dailyEmpWage();
