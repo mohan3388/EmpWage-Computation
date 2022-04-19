@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\mydotnet\\EmpWage-Computation\\Empwage\\Empwage.csproj",
+      "projectUniqueName": "D:\\dotnet\\Empwage\\EmpWage-Computation\\Empwage\\Empwage.csproj",
       "projectName": "Empwage",
-      "projectPath": "D:\\mydotnet\\EmpWage-Computation\\Empwage\\Empwage.csproj",
+      "projectPath": "D:\\dotnet\\Empwage\\EmpWage-Computation\\Empwage\\Empwage.csproj",
       "packagesPath": "C:\\Users\\Mohan sahu\\.nuget\\packages\\",
-      "outputPath": "D:\\mydotnet\\EmpWage-Computation\\Empwage\\obj\\",
+      "outputPath": "D:\\dotnet\\Empwage\\EmpWage-Computation\\Empwage\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mohan sahu\\AppData\\Roaming\\NuGet\\NuGet.Config",
