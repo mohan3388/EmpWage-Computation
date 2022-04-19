@@ -1,45 +1,45 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Empwage
+namespace EmployeeWageComputation
 {
-    public class EmployeeWage
+    public class Employeesalary
     {
-        //constance value
-        const int PART_TIME_EMP = 1;
-        const int FULL_TIME_EMP = 2;
-        const int EMP_WAGE_PR_HR = 20;
-        const int EMP_FULL_DAY_WRKING_HR = 8;
-        const int EMP_PART_TIME_WRKING_HR = 4;
-        const int EMP_WORKING_PR_MONTH = 20;
-        const int MAX_WORKING_HR = 100;
-
-
-        //variable values
+        
+        const int PartTime = 1;
+        const int FullTime = 2;
+        const int EmpWagePrHr = 20;
+        const int FullDay_Working_Hr = 8;
+        const int PartTime_Time_Working_Hr = 4;
+        const int EmpWorking_Pr_Month= 20;
+        const int Max_Working_Hr = 100;
+         
+       
+        
         int empHrs = 0;
-        int totalEmpSalary = 0;
-        int totalEmpHrs = 0;
+        int EmpTotalSalary=0;
+        int EmpTotalEmpHrs = 0;
         int day = 0;
-
-        public void monthlyEmpWage()
+      
+        public void monthlyWage()
         {
-            while (day <= EMP_WORKING_PR_MONTH && empHrs <= MAX_WORKING_HR)
+            while (day <= EmpWorking_Pr_Month && empHrs <= Max_Working_Hr)
             {
                 Random random = new Random();
                 int empCheck = random.Next(0, 3);
-
+                
                 switch (empCheck)
                 {
-                    case FULL_TIME_EMP:
+                    case FullTime:
 
-                        empHrs += EMP_FULL_DAY_WRKING_HR;
+                        empHrs += FullDay_Working_Hr;
                         break;
-                    case PART_TIME_EMP:
+                    case PartTime:
 
-                        empHrs += EMP_PART_TIME_WRKING_HR;
+                        empHrs += PartTime_Time_Working_Hr;
                         break;
                     default:
                         empHrs = 0;
@@ -49,10 +49,10 @@ namespace Empwage
 
             }
 
-            totalEmpSalary = empHrs * EMP_WAGE_PR_HR;
-            Console.WriteLine("One month Employee Salary is :" + totalEmpSalary);
+            EmpTotalSalary = empHrs * EmpWagePrHr;
+            Console.WriteLine("One month Employee Salary is :" + EmpTotalSalary);
         }
-
+       
 
     }
 }
