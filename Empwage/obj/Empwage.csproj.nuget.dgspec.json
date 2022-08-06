@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\mydotnet\\EmpWage-Computation\\Empwage\\Empwage.csproj": {}
+    "F:\\dotnet\\Empwage\\EmpWage-Computation\\Empwage\\Empwage.csproj": {}
   },
   "projects": {
-    "D:\\mydotnet\\EmpWage-Computation\\Empwage\\Empwage.csproj": {
+    "F:\\dotnet\\Empwage\\EmpWage-Computation\\Empwage\\Empwage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\mydotnet\\EmpWage-Computation\\Empwage\\Empwage.csproj",
+        "projectUniqueName": "F:\\dotnet\\Empwage\\EmpWage-Computation\\Empwage\\Empwage.csproj",
         "projectName": "Empwage",
-        "projectPath": "D:\\mydotnet\\EmpWage-Computation\\Empwage\\Empwage.csproj",
-        "packagesPath": "C:\\Users\\Mohan sahu\\.nuget\\packages\\",
-        "outputPath": "D:\\mydotnet\\EmpWage-Computation\\Empwage\\obj\\",
+        "projectPath": "F:\\dotnet\\Empwage\\EmpWage-Computation\\Empwage\\Empwage.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "F:\\dotnet\\Empwage\\EmpWage-Computation\\Empwage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mohan sahu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
