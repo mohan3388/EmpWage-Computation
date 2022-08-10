@@ -17,6 +17,7 @@ namespace Empwage
                 Console.WriteLine("Employee is Present");
             else
                 Console.WriteLine("Employee is Absent");
+            
         }
     }
 }
