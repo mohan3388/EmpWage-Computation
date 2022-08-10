@@ -8,6 +8,7 @@ namespace Empwage
 {
     public class EmployeeWage
     {
+        
         //constance value
         const int EMP_WAGE_PR_HR = 20;
         const int EMP_FULL_DAY_WRKING_HR = 8;
