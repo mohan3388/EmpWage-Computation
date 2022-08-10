@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o8icbMJGIz6oXBFNJeqxDEqsNxE1Te4v9tEn1UQbbfjxR0oiWjGIZB2xaUslcE07acL6dZZdfQAAPipiPWmGdw==",
+  "dgSpecHash": "T86jJOk5custpG8OsVpoKDQ87H67CSbf8Nc5/1sAcgHrAyn98HcGmKKxdh6dpoBWe+sUItBpbeFwiJ96s6GS2g==",
   "success": true,
-  "projectFilePath": "D:\\mydotnet\\EmpWage-Computation\\Empwage\\Empwage.csproj",
+  "projectFilePath": "F:\\dotnet\\Empwage\\Wage\\EmpWage-Computation\\Empwage\\Empwage.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
