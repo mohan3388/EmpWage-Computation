@@ -14,7 +14,10 @@
             EmployeeWage.MonthlyWages("TCS");
             EmployeeWage.AddCompany("Accenture", 20, 8, 4, 100, 20);
             EmployeeWage.MonthlyWages("Accenture");
-            EmployeeWage.ViewWage();
+
+            Console.WriteLine("Enter the company name");
+            string company = Convert.ToString(Console.ReadLine());
+            EmployeeWage.Find(company);
         }
     }
 }
