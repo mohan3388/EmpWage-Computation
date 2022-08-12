@@ -16,6 +16,7 @@ namespace Empwage
         public int maxworkdays = 20;
         public String CompanyName;
 
+     
         public Companies(String CompanyName, int WageHour, int FullTime, int PartTime, int maxworkhour, int maxworkdays)
         {
             this.CompanyName = CompanyName;
